@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { variants } from '@/data/variants';
 import type { Variant } from '@/data/variants';
-import { ArrowLeft, ArrowRight, Twitter, Instagram, Facebook } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Instagram, Facebook } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 // Helper to generate the full URL for a specific frame
@@ -161,7 +161,6 @@ export function HeroSection() {
 
           {/* Bottom Social Icons */}
           <div className="col-span-12 row-start-6 flex items-center justify-center gap-6">
-            <a href="#" aria-label="Twitter"><Twitter className="h-5 w-5 hover:text-primary-foreground/80" /></a>
             <a href="#" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-primary-foreground/80" /></a>
             <a href="#" aria-label="Facebook"><Facebook className="h-5 w-5 hover:text-primary-foreground/80" /></a>
           </div>

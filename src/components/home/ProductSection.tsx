@@ -9,7 +9,7 @@ export function ProductSection() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
-            <h2 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
               About the Photo
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">

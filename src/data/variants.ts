@@ -14,7 +14,7 @@ export const variants: Variant[] = [
     id: 1,
     name: 'MUNIR',
     subtitle: 'GAMER',
-    description: 'A modern take on a classic soda with a perfect blend of sweet and tart, full of nostalgic flavor.',
+    description: '🎬 Your forever story, one frame at a time 📸 Modern | Moody | Magical 💌 Bookings Available – DM me!',
     sequence: {
       url: 'https://jjikcpuvzemupubhixhc.supabase.co/storage/v1/object/public/munir/frame_{frame}_delay-0.04s.webp',
       frameCount: 240,

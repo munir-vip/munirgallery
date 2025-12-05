@@ -132,8 +132,8 @@ export function HeroSection() {
               <Button size="lg" variant="outline" className="rounded-full bg-transparent text-white border-white hover:bg-white hover:text-black" asChild>
                 <Link href="https://www.instagram.com/munir_ahmed1/" target="_blank">INSTAGRAM</Link>
               </Button>
-              <Button size="lg" className="rounded-full">
-                TELEGRAM
+              <Button size="lg" className="rounded-full" asChild>
+                <Link href="https://t.me/munir_ahmed1" target="_blank">TELEGRAM</Link>
               </Button>
             </div>
           </div>

@@ -7,6 +7,7 @@ import { variants } from '@/data/variants';
 import type { Variant } from '@/data/variants';
 import { ArrowLeft, ArrowRight, Instagram, Facebook } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 // Helper to generate the full URL for a specific frame
 const getFrameUrl = (variant: Variant, frame: number): string => {
@@ -128,8 +129,8 @@ export function HeroSection() {
               </p>
             </div>
             <div className="mt-8 flex items-center gap-4">
-              <Button size="lg" variant="outline" className="rounded-full bg-transparent text-white border-white hover:bg-white hover:text-black">
-                INSTAGRAM
+              <Button size="lg" variant="outline" className="rounded-full bg-transparent text-white border-white hover:bg-white hover:text-black" asChild>
+                <Link href="https://www.instagram.com/munir_ahmed1/" target="_blank">INSTAGRAM</Link>
               </Button>
               <Button size="lg" className="rounded-full">
                 TELEGRAM
@@ -161,8 +162,7 @@ export function HeroSection() {
 
           {/* Bottom Social Icons */}
           <div className="col-span-12 row-start-6 flex items-center justify-center gap-6">
-            <a href="#" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-primary-foreground/80" /></a>
-            <a href="#" aria-label="Facebook"><Facebook className="h-5 w-5 hover:text-primary-foreground/80" /></a>
+            <a href="https://www.instagram.com/munir_ahmed1/" target="_blank" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-primary-foreground/80" /></a>
           </div>
         </div>
       </div>

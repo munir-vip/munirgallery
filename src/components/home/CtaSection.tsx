@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function CtaSection() {
   return (
@@ -11,7 +12,9 @@ export function CtaSection() {
           Get in touch to discuss your next project. Let's create something beautiful together.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Button size="lg" variant="outline" className="rounded-full">INSTAGRAM</Button>
+          <Button size="lg" variant="outline" className="rounded-full" asChild>
+            <Link href="https://www.instagram.com/munir_ahmed1/" target="_blank">INSTAGRAM</Link>
+          </Button>
           <Button size="lg" className="rounded-full">TELEGRAM</Button>
         </div>
       </div>

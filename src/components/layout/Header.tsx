@@ -7,7 +7,7 @@ import { Menu } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const navLinks = [
-  { href: '#product', label: 'Product' },
+  { href: '#product', label: 'About Me' },
   { href: '#reviews', label: 'Reviews' },
   { href: '#faq', label: 'FAQ' },
   { href: '#contact', label: 'Contact' },

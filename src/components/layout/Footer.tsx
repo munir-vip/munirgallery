@@ -12,7 +12,7 @@ export function Footer() {
             <p className="text-sm mt-2">Cinematic Photography</p>
           </div>
           <div className="flex gap-8 text-sm">
-            <a href="#product" className="hover:text-white transition-colors">About</a>
+            <a href="#product" className="hover:text-white transition-colors">About Me</a>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms</a>

@@ -138,18 +138,6 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right Variant Navigation */}
-          <div className="col-span-2 md:col-span-1 md:col-start-12 row-start-2 row-span-4 flex flex-col items-center justify-center">
-            <div className="flex flex-col items-center gap-4 text-sm font-light">
-              <button onClick={handlePrev} disabled={variants.length <= 1} className="flex flex-col items-center gap-2 hover:text-primary-foreground/80 disabled:opacity-50">
-                <span>PREV</span>
-              </button>
-              <div className="h-24 w-px bg-white/30 my-2"></div>
-              <button onClick={handleNext} disabled={variants.length <= 1} className="flex flex-col items-center gap-2 hover:text-primary-foreground/80 disabled:opacity-50">
-                <span>NEXT</span>
-              </button>
-            </div>
-          </div>
           <div className="absolute right-8 md:right-24 top-1/2 -translate-y-1/2 flex items-center">
              {isLoadingSequence && <div className="w-16"><Progress value={loadingProgress} className="h-1 bg-white/20" /></div>}
             <span className={cn(

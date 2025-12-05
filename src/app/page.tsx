@@ -16,8 +16,9 @@ export default function Home() {
 
   return (
     <>
-      <LoadingScreen onLoaded={() => setIsLoading(false)} />
-      {!isLoading && (
+      {isLoading ? (
+        <LoadingScreen onLoaded={() => setIsLoading(false)} />
+      ) : (
         <>
           <Header />
           <main>

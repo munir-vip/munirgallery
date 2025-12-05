@@ -118,7 +118,7 @@ export function HeroSection() {
                 "transition-opacity duration-300",
                 isFading ? "opacity-0" : "opacity-100"
             )}>
-              <p className="font-headline text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter my-4">
+              <p className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tighter my-4">
                 {currentVariant.name}
               </p>
               <p className="text-lg font-light tracking-widest uppercase">
@@ -136,16 +136,6 @@ export function HeroSection() {
                 <Link href="https://t.me/munir_ahmed1" target="_blank">TELEGRAM</Link>
               </Button>
             </div>
-          </div>
-
-          <div className="absolute right-8 md:right-24 top-1/2 -translate-y-1/2 flex items-center">
-             {isLoadingSequence && <div className="w-16"><Progress value={loadingProgress} className="h-1 bg-white/20" /></div>}
-            <span className={cn(
-                "font-headline text-8xl md:text-9xl transition-opacity duration-300",
-                isFading ? 'opacity-0' : 'opacity-100'
-            )}>
-              {String(currentVariantIndex + 1).padStart(2, '0')}
-            </span>
           </div>
 
           {/* Bottom Social Icons */}

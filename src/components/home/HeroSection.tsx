@@ -118,7 +118,7 @@ export function HeroSection() {
                 "transition-opacity duration-300",
                 isFading ? "opacity-0" : "opacity-100"
             )}>
-              <p className="font-headline text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tighter my-4">
+              <p className="font-headline text-white text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tighter my-4">
                 {currentVariant.name}
               </p>
               <p className="text-lg font-light tracking-widest uppercase">
